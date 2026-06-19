@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Dataset
+dataset/images/
+dataset/labels/
+
+# YOLO training runs (kecuali best.pt)
+runs/train/*/weights/last.pt
+runs/detect/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.log
