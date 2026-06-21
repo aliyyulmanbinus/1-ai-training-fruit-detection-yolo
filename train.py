@@ -11,7 +11,7 @@ MODEL = 'yolov8s.pt'
 EPOCHS = 50
 IMG_SIZE = 640
 BATCH_SIZE = 8
-PROJECT_NAME = 'runs/detect'
+PROJECT_NAME = 'runs'
 EXPERIMENT_NAME = 'fruit-detection'
 
 # Training
@@ -66,7 +66,7 @@ def train():
     # Tampilkan lokasi hasil training
     best_model = os.path.join(PROJECT_NAME, EXPERIMENT_NAME, 'weights', 'best.pt')
     if os.path.exists(best_model):
-        print(f"\n🏆 Model terbaik tersimpan di:")
+        print(f"\n Model terbaik tersimpan di:")
         print(f"   {best_model}")
     
     print(f"\n Hasil lengkap tersimpan di:")
