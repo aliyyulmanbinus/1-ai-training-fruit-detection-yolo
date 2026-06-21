@@ -7,10 +7,10 @@ Technical Test AI Training - Wrapstation.
 
 | Komponen | Spesifikasi |
 |----------|-------------|
-| OS | Windows 11 23H2 (Build 22631.6199) |
-| CPU | Intel Core i5-7300HQ @ 2.50GHz |
+| OS | Windows 10 Home (Build 19045) |
+| CPU | Intel Core i7-7700HQ @ 2.80GHz |
 | RAM | 16 GB |
-| GPU | NVIDIA GeForce GTX 1050 (4GB VRAM) |
+| GPU | NVIDIA GeForce GTX 1060 (6GB VRAM) |
 | CUDA | 12.7 |
 | Driver NVIDIA | 566.36 |
 | Python | 3.10.11 |
